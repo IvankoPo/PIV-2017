@@ -1,0 +1,24 @@
+idnInt blockCode func(idnInt a, idnInt y)
+<
+  var idnInt b.
+  b = a * (y + a).
+  ret b.
+>.
+
+main
+<
+  var idnInt x.
+  var idnInt y = 3.
+  var idnStr s.
+  x = func(y, 4).
+  show x.
+  x = strlen("hello").
+  show x.
+  x = x*strlen("main").
+  show x.
+  s = substr("main program","in").
+  show s.
+  var idnStr str = "in".
+  s = substr("in main", str).
+  show s.
+>.
